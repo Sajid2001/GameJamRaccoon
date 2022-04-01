@@ -6,7 +6,9 @@ public class Enemy : MonoBehaviour
 {
     public float speed;
     private float waitTime;
+    private float sightTime;
     public float startWaitTime;
+    public float startSightTime;
     public Transform[] moveSpots;
     private int nextPosition;
     [SerializeField]
@@ -15,13 +17,14 @@ public class Enemy : MonoBehaviour
 
     void Start() {
         waitTime = startWaitTime;
+        sightTime = startSightTime;
         nextPosition = 1;
     }
 
     void Update() {
         Patrol();
         if(CanSeePlayer()){
-            Debug.Log("Game Over");
+            GameManager.isGameOver = true;
         }
     }
 
@@ -48,7 +51,12 @@ public class Enemy : MonoBehaviour
         
         if(hit.collider != null && hit.collider.CompareTag("Player")){
             Debug.DrawLine(transform.position, hit.point, Color.red);
-            return true;
+            if(sightTime <= 0){
+                return true;
+            }
+            sightTime-= Time.deltaTime;
+
+            
 
         }
         else
