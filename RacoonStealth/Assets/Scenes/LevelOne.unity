@@ -2084,8 +2084,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002153039, y: -0.0036468506}
-  m_SizeDelta: {x: 617.6569, y: 42.7127}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1211.529, y: 99.5653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1121429219
 Animator:
@@ -2128,7 +2128,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 16
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -4613,7 +4613,7 @@ GameObject:
   - component: {fileID: 1407554692}
   - component: {fileID: 1407554694}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Tutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4636,8 +4636,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.97565, y: 147.16}
-  m_SizeDelta: {x: 617.66, y: 42.715}
+  m_AnchoredPosition: {x: 0, y: 441}
+  m_SizeDelta: {x: 1327.77, y: 117.671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1407554692
 MonoBehaviour:
