@@ -4,13 +4,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
+    public Animator transition;
     [SerializeField]
-    private string sceneToLoad;
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if (other.CompareTag("Player")&& !other.isTrigger)
         {
-            SceneManager.LoadScene(sceneToLoad);
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         }
+    }
+    IEnumerator LoadLevel(int index){
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(index);
+
     }
 }

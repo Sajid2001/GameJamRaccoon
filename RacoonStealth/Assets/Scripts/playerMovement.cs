@@ -8,6 +8,7 @@ public class playerMovement : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 movement;
     public Animator anim;
+    public AudioSource footsteps;
 
     void Update()
     {
@@ -18,7 +19,6 @@ public class playerMovement : MonoBehaviour
             anim.SetFloat("Vertical",movement.y);
         }
         anim.SetFloat("Speed", movement.sqrMagnitude);
-       
     }
 
     void FixedUpdate() 
@@ -35,4 +35,10 @@ public class playerMovement : MonoBehaviour
     {
          rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
     }
+
+    public void WalkSound(){
+        footsteps.Play();
+    }
+    
+
 }

@@ -43,4 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a1bc89ab1ca26478e79b0466debaec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverScreen: {fileID: 2272711755304531043, guid: 120c4c115074ba34d9e901efce428905, type: 3}
+  gameOverScreen: {fileID: 0}
+  player: {fileID: 7644571137587192765, guid: 29461683be3ebf149ae5e1bb312af669, type: 3}
+  DarkMap: {fileID: 0}
+  BlurredMap: {fileID: 0}
+  BackgroundMap: {fileID: 0}
+  DarkTile: {fileID: 11400000, guid: 0f9fb9836a8bf134d88c7ab1acb8fcdd, type: 2}
+  BlurredTile: {fileID: 11400000, guid: 3089981292c8bae4e92f0ba088db63e0, type: 2}
