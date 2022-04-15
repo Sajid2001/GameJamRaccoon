@@ -1,6 +1,6 @@
-# Trash Job
+# Trash Job 🦝
 
-### A submission for the St. Johns University Game Jam 🦝
+### A submission for the St. Johns University Game Jam 
 
 ### Itch link: https://sajid2001.itch.io/trash-job.
 
