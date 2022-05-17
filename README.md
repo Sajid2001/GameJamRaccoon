@@ -9,6 +9,6 @@
 ### Background Art: Carrie
 ### Level Design: Blooberri
 ### Music + SFX: Calcym, Carrie, Blooberri.
-### Programming: Sajid2001
+### Programming: Sajid
 
 
