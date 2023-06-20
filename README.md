@@ -15,7 +15,7 @@ View the game on itch.io: https://sajid2001.itch.io/trash-job
 
 ## Gameplay
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PfV6_wbrKng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![IMAGE ALT TEXT](https://github.com/Sajid2001/GameJamRaccoon/assets/60523377/48905714-94ce-44a5-b64c-bd687c89ebde)](https://www.youtube.com/watch?v=PfV6_wbrKng)
 
 ## Key contributors:
 Character Art: Calcym
@@ -24,7 +24,5 @@ Level Design: Blooberri
 Music + SFX: Calcym, Carrie, Blooberri.
 Programming: Sajid
 
-
-![image](https://github.com/Sajid2001/GameJamRaccoon/assets/60523377/48905714-94ce-44a5-b64c-bd687c89ebde)
 
 
