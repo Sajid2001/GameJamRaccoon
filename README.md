@@ -15,7 +15,7 @@ View the game on itch.io: https://sajid2001.itch.io/trash-job
 
 ## Gameplay
 
-[![IMAGE ALT TEXT](https://github.com/Sajid2001/GameJamRaccoon/assets/60523377/48905714-94ce-44a5-b64c-bd687c89ebde)](https://www.youtube.com/watch?v=PfV6_wbrKng)
+https://github.com/Sajid2001/GameJamRaccoon/assets/60523377/ddb11aa3-64f5-4ce6-8885-d4820a0a9237
 
 ## Key contributors:
 Character Art: Calcym
